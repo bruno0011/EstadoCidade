@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🗺️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <div class="flexHr flexVr">
+            <div>
+                <label for="selectEstado">Estado</label>
+                <select name="selectEstado" id="selectEstado">
+                    <option value="0">Selecione o Estado</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PE">Pernambuco</option>
+                </select>
+            </div>
+            <div>
+                <label for="selectCidade">Cidade</label>
+                <select name="selectCidade" id="selectCidade" disabled>
+                    <option value="0">Selecione a Cidade</option> 
+                </select>
+            </div>
+        </div>
+        <div id="exibeCidadeEstado" class="divDeTexto"></div>
+    </form>
+</body>
+</html>
